@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#toast-container > div {
+    border-radius: 10px;   /* Adds rounded corners */
+    padding: 10px;
+    background-color: #4CAF50;
+    z-index: 1;
+  }
+  .toast-success {
+    background-color: #4CAF50 !important; /* Custom green */
+    color: white !important;
+  }
+  .toast-warning {
+    background-color: #ff4848 !important; /* Custom green */
+    color: white !important;
+  }
