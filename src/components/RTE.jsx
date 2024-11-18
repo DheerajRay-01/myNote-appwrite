@@ -5,8 +5,8 @@ import conf from '../conf'
 function RTE({ onChange, defaultValue }) {
   return (
     <Editor
-    // apiKey={conf.rteApiKey}
-    apiKey="413cfug0scf2gvf7cr9hnfjv27jyde1e6eiuljyn7x0j8n12"
+    apiKey={conf.rteApiKey}
+    // apiKey="413cfug0scf2gvf7cr9hnfjv27jyde1e6eiuljyn7x0j8n12"
       initialValue={defaultValue}
       init={{
         height: 500,
