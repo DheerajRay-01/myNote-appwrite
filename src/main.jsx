@@ -30,9 +30,9 @@ const router = createBrowserRouter([
         path:"/all-notes",
         element:
         (
-          <AuthLayout>
+          // <AuthLayout>
             <AllNotes/>
-          </AuthLayout>
+          // </AuthLayout>
         ),
       },
       {
