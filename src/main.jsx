@@ -46,8 +46,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/view-note/:id",
-        element:
+        element:(
+          <AuthLayout>
             <ViewNote/>
+          </AuthLayout>
+        )
       },
       {
         path:"/signin",
