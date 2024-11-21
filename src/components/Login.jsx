@@ -31,6 +31,7 @@ function Login() {
         }
       } catch (error) {
         console.log("error : login :", error.message);
+        const errorMsg = error.response?.data?.message || "An unexpected error occurred";
         setError(error.message)
       }
     }
