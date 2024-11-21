@@ -1,7 +1,7 @@
 
-# **My Notes**  
+# **MyNotes**  
 
-**My Notes** is a fully responsive and feature-rich web application for creating, managing, and organizing notes. Designed with modern technologies and an intuitive interface, it offers a seamless experience for users to format, save, and manage their notes across devices.  
+**MyNotes** is a fully responsive and feature-rich web application for creating, managing, and organizing notes. Designed with modern technologies and an intuitive interface, it offers a seamless experience for users to format, save, and manage their notes across devices.  
 
 [**Live Demo**](https://my-note-appwrite.vercel.app)  
 
