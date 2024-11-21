@@ -6,6 +6,16 @@
 [**Live Demo**](https://my-note-appwrite.vercel.app)  
 
 ---
+## Screenshots
+<img width="960" alt="{B308ED42-4952-4A90-B8B5-B4F73CE68CE1}" src="https://github.com/user-attachments/assets/4fde62ee-f504-4842-8ede-28f7c3e6d97a">
+
+<img width="960" alt="{238B9482-A964-44B6-A92B-5AA33901540B}" src="https://github.com/user-attachments/assets/ba12e78a-1b56-4ffb-8a50-811d94825b4c">
+
+<img width="960" alt="{7EB26291-AE40-4E70-AE4D-354ECA8E0C17}" src="https://github.com/user-attachments/assets/7dac4e8e-e3af-4219-9d29-b2e43d307bfe">
+
+
+
+---
 
 ## **Features**  
 
