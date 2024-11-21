@@ -87,16 +87,17 @@ We welcome contributions to make **My Notes** even better!
 2. Create a new branch:  
    ```bash  
    git checkout -b feature-name
+   ```
 
 3. Make your changes and commit:
-
+```bash 
 git commit -m "Add feature description"
-
+```
 
 4. Push to the branch:
-
+```bash 
 git push origin feature-name
-
+```
 
 5. Open a pull request with details of your changes.
 
@@ -105,7 +106,7 @@ git push origin feature-name
 
 ---
 
-## Acknowledgements
+## **Acknowledgements**
 
 React (Vite) for the frontend framework.
 
