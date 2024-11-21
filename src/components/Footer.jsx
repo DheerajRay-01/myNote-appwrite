@@ -21,7 +21,7 @@ function Footer() {
 }
 
   return (
-    <footer className="bg-gray-800 text-white py-6">
+    <footer className="bg-gray-800 text-white md:py-6 py-3">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-center md:text-left">
           
@@ -32,7 +32,7 @@ function Footer() {
           </div>
 
           {/* Navigation Links */}
-          <div className="w-full md:w-1/2 mb-4 md:mb-0">
+          <div className="w-full md:w-1/2 mb-0">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="mt-2 space-y-1 text-gray-400">
               <li><Link to="/" className="hover:text-white">Home</Link></li>
