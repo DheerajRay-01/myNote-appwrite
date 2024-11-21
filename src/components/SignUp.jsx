@@ -10,7 +10,7 @@ import toastr from "toastr";
 function SignUp() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { register, handleSubmit,watch } = useForm();
+  const { register, handleSubmit ,formState: { isSubmitting }} = useForm()
   const [Error , setError] = useState("")
 
   const submit = async (data) => {
@@ -42,7 +42,7 @@ function SignUp() {
         <p>
           If you already have account , Go to{" "}
           <b>
-            <Link to={"/login"}> Login</Link>{" "}
+            <Link to={"/login"}> <b className='text-blue-600'>Login</b> </Link>{" "}
           </b>
         </p>
         <br />
@@ -96,9 +96,10 @@ function SignUp() {
           <div className="flex justify-center mt-4">
             <button
               type="submit"
-              className="w-full p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              disabled={isSubmitting}
+              className={`w-full p-3 ${isSubmitting ? "bg-blue-300 hover:bg-blue-300 cursor-not-allowed" : "bg-blue-600"} text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500`}
             >
-              Submit
+              {isSubmitting ? "Creating Account..." : "Create Account"}
             </button>
           </div>
         </form>

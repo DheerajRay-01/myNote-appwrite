@@ -11,7 +11,7 @@ function Login() {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const [Error , setError] = useState("")
-  const { register, handleSubmit } = useForm()
+  const { register, handleSubmit ,formState: { isSubmitting }} = useForm()
 
 
   const submit = async (data) => {
@@ -43,7 +43,7 @@ function Login() {
     <div className='w-full h-full bg-slate-100 p-8 flex justify-center items-center'>
       <div className="bg-white p-8 rounded-lg shadow-lg w-full sm:w-96">
         <h2 className="text-2xl font-semibold text-center mb-8">LogIn</h2>
-        <p>Don't have an account ? Go to <b><Link to={"/signin"}> SignIn</Link> </b></p><br />
+        <p>Don't have an account ? Go to <b className='text-blue-600'><Link to={"/signin"}> SignIn</Link> </b></p><br />
 
         <form onSubmit={handleSubmit(submit)} >
          
@@ -72,9 +72,10 @@ function Login() {
           <div className="flex justify-center mt-4">
             <button
               type='submit'
-              className="w-full p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              disabled={isSubmitting}
+              className={`w-full p-3 ${isSubmitting ? "bg-blue-300 hover:bg-blue-300 cursor-not-allowed" : "bg-blue-600"} text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500`}
             >
-              Login
+              {isSubmitting ? "Logging in..." : "Login"}
             </button>
           </div>
         </form>
