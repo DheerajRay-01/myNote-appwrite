@@ -7,17 +7,12 @@
 
 ---
 ## Screenshots
-<img width="400" alt="{B308ED42-4952-4A90-B8B5-B4F73CE68CE1}" src="https://github.com/user-attachments/assets/4fde62ee-f504-4842-8ede-28f7c3e6d97a">
-
-<img width="400" alt="{238B9482-A964-44B6-A92B-5AA33901540B}" src="https://github.com/user-attachments/assets/ba12e78a-1b56-4ffb-8a50-811d94825b4c">
-
-<img width="400" alt="{7EB26291-AE40-4E70-AE4D-354ECA8E0C17}" src="https://github.com/user-attachments/assets/7dac4e8e-e3af-4219-9d29-b2e43d307bfe">
-
-<img width="400" alt="{C93DD4AD-43FC-438C-8A28-3500A7FCEED2}" src="https://github.com/user-attachments/assets/6938796b-2e50-4dbf-baa9-9069fe093100">
-
-
-
-
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="https://github.com/user-attachments/assets/4fde62ee-f504-4842-8ede-28f7c3e6d97a" alt="Screenshot 1" width="400">
+    <img src="https://github.com/user-attachments/assets/ba12e78a-1b56-4ffb-8a50-811d94825b4c" alt="Screenshot 2" width="400">
+    <img src="https://github.com/user-attachments/assets/7dac4e8e-e3af-4219-9d29-b2e43d307bfe" alt="Screenshot 3" width="400">
+    <img src="https://github.com/user-attachments/assets/6938796b-2e50-4dbf-baa9-9069fe093100" alt="Screenshot 4" width="400">
+</div>
 ---
 
 ## **Features**  
