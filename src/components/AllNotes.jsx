@@ -35,7 +35,7 @@ function AllNotes() {
         {noteArr.length === 0 ? (
           <div className="mt-4 p-4 bg-yellow-100 border border-yellow-400 text-yellow-700 rounded-md text-center">
             <p className="font-semibold text-lg bg-yellow-100">
-              No todos available
+              No Notes available
             </p>
             <p className="bg-yellow-100">Please add a Notes to get started!</p>
           </div>
