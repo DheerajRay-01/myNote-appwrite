@@ -39,6 +39,7 @@ function Footer() {
               <li><Link to="/all-notes" className="hover:text-white">All Notes</Link></li>
               <li><Link onClick={logoutHandler} className="hover:text-white">logout</Link></li>
               <li><Link to="/policy" className="hover:text-white">Privacy Policy</Link></li>
+              <li><Link to="/support" className="hover:text-white">Contact Support</Link></li>
             </ul>
           </div>
         </div>

@@ -13,6 +13,7 @@ import SignIn from './pages/SignInPage.jsx'
 import Login from './pages/LoginPage.jsx'
 import AuthLayout from './components/AuthLayout.jsx'
 import Policy from './pages/Policy.jsx'
+import Support from './components/Support.jsx'
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
       {
         path:"/policy",
         element:<Policy/>
+      },
+      {
+        path:"/support",
+        element:<Support/>
       }
     ]
   }
