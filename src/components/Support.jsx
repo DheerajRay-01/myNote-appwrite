@@ -10,6 +10,14 @@ function Support() {
             If you have any issues or want to report a bug, please create an issue using the button below.
         </p>
         <div className='flex flex-col gap-5 items-center'>
+        <button
+                className='px-6 py-3 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400'
+                onClick={() => window.open("https://github.com/DheerajRay-01/myNote-appwrite/discussions/1", "_blank")}
+                aria-label="Create an issue on GitHub"
+            >
+                Ask a Question
+            </button>
+
             <button
                 className='px-6 py-3 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400'
                 onClick={() => window.open("https://github.com/DheerajRay-01/myNote-appwrite/issues/new", "_blank")}
