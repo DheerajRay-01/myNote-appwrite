@@ -2,12 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyNotes</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="MyNotes is a feature-rich platform for organizing and managing notes with a rich text editor and user authentication, perfect for students, professionals, and anyone looking to enhance their productivity.">
+    <meta name="keywords" content="note-taking, notes app, productivity, educational platform, task management, online notes, digital notebook, create notes, manage notes, to-do lists, study tools, note organization, personal organization">
+    
+    <!-- Open Graph Tags for Social Media Sharing -->
+    <meta property="og:title" content="MyNotes - Organize and Manage Your Notes Efficiently" />
+    <meta property="og:description" content="A platform for organizing notes, creating to-do lists, and managing educational content." />
+    <meta property="og:image" content="https://my-note-appwrite.vercel.app/images/og-image.jpg" /> <!-- Replace with actual image URL -->
+    <meta property="og:url" content="https://my-note-appwrite.vercel.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MyNotes",
+        "url": "https://my-note-appwrite.vercel.app/",
+        "description": "A platform to create and manage notes with a rich text editor."
+      }
+    </script>
+
+    <title>MyNotes - Organize and Manage Your Notes Efficiently</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   </head>
   <body class="w-full">
-    <div id="root" ></div>
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
