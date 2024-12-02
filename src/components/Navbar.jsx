@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate,  NavLink } from "react-router-dom";
+import { useNavigate,  NavLink , Link } from "react-router-dom";
 import {logOut} from '../store/authSlice'
 import { useDispatch, useSelector } from 'react-redux'
 import authService from "../Appwrite/auth";
@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className="">
       <div className="head flex justify-center relative">
-        <h1 className="text-3xl font-extrabold py-3 text-gray-800 flex gap-3 items-center"><GiNotebook/> MyNotes</h1>
+       <Link to="/"> <h1 className="text-3xl font-extrabold py-3 text-gray-800 flex gap-3 items-center"><GiNotebook/> MyNotes</h1></Link>
        { isLogin &&
         <button onClick={logoutHandler} className="absolute right-0 top-3 px-2 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300">
          <MdOutlineLogout className="text-xl font-bold"/>
