@@ -41,7 +41,7 @@ function Login() {
 
 
   return (
-    <div className='w-full h-full bg-slate-100 p-8 flex justify-center items-center'>
+    <div className='w-full h-full bg-[#e9e5e6] p-8 flex justify-center items-center'>
       <div className="bg-white p-8 rounded-lg shadow-lg w-full sm:w-96">
         <h2 className="text-2xl font-semibold text-center mb-8">LogIn</h2>
         <p>Don't have an account ? Go to <b className='text-blue-600'><Link to={"/signin"}> SignIn</Link> </b></p><br />
